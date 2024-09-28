@@ -1,5 +1,7 @@
 # Fake-News-detect
- 
+
+This dataset is taken from [Kaggle](https://www.kaggle.com/datasets/mdepak/fakenewsnet).
+
 ## Exploratory Data Analysis (EDA) for Fake News Detection
 In this section, we conduct a thorough Exploratory Data Analysis (EDA) of the dataset used to detect fake news. This analysis aims to provide insights into the characteristics of the data, which is crucial for feature engineering, model building, and understanding the overall distribution of the news articles. Below, we summarize key findings from the visualizations generated.
 
