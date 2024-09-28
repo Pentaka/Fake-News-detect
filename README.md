@@ -48,9 +48,12 @@ Observation: Certain sources lean more heavily toward publishing fake news, whil
 
 
 ## Summary
-From the EDA, we gained the following insights:
+We gained the following insights from EDA:
 
--Class Imbalance: If the dataset is imbalanced between real and fake news, we will need to address this to avoid biased model predictions.
--Title Lengths: The distribution of title lengths varies significantly between real and fake news. This can be used as a feature in predictive models.
--Source Credibility: Certain news sources dominate the dataset, and some exhibit a clear tendency to publish more fake or real news. Source reliability could be another key feature.
--These findings are critical for preparing the dataset for machine learning models, and they offer potential areas for feature engineering, such as leveraging title lengths and source credibility to improve classification performance.
+-Class Imbalance: The dataset is imbalanced between real and fake news. Methods such as SMOTE and RandomUnderSampler were used to balance this data, but it was observed that the dataset was not large enough and produced worse results than the raw data.
+
+-Headline Lengths: The distribution of headline lengths varies significantly between real and fake news. This can be used as a feature in predictive models, but the performance drops significantly when extreme values ​​are removed.
+
+-Source Credibility: Some news sources dominate the dataset, and some show a clear tendency to publish more fake or real news. Source credibility can be another important feature. These findings are critical for preparing the dataset for machine learning models and offer potential areas for feature engineering, such as improving classification performance using headline lengths and source credibility.
+
+
