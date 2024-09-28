@@ -56,4 +56,9 @@ We gained the following insights from EDA:
 
 -Source Credibility: Some news sources dominate the dataset, and some show a clear tendency to publish more fake or real news. Source credibility can be another important feature. These findings are critical for preparing the dataset for machine learning models and offer potential areas for feature engineering, such as improving classification performance using headline lengths and source credibility.
 
+## Libraries:
+
+```bash
+pip install pandas re matplotlib seaborn scikit-learn
+
 
